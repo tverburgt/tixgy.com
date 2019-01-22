@@ -1,0 +1,66 @@
+
+
+
+#navMenu{
+	margin:0;
+	padding:0;
+}
+
+#navMenu ul {
+	margin:0;
+	padding:0;
+	line-height:30px; /* Make text go in middle horizontally. */
+	
+}
+
+#navMenu li{
+	margin:0;
+	padding:0;
+	list-style:none;
+	float:left;
+	position:relative;
+	background:#999;
+}
+
+#navMenu ul li a{
+	text-align:center;
+	font-family:san-serif;
+	text-decoration:none;
+	height:30px;
+	width:150px;
+	display:block;
+	color:white;           
+	border:1px solid white;
+	text-shadow:5px 5px 5px black;
+}
+
+#navMenu ul li ul{
+	position:absolute;
+	visibility:hidden;
+	top:32px;
+}
+#navMenu ul li:hover ul{
+	visibility:visible;
+}
+
+#navMenu li:hover{
+	background:#09F;   /* Changes menu color bg 
+						when mouse is on menu bar */
+}
+
+#navMenu ul li:hover ul li a:hover {
+	background:#CCC;
+	color:black;
+}
+
+
+#navMenu a:hover{
+	color:black;  /*Changes the text color of links from white to 
+					black when mouse hovers links*/
+}
+
+
+
+
+
+

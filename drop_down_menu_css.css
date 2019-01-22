@@ -1,0 +1,53 @@
+
+
+#menu_bar ul{
+	padding:0;
+	margin:0;
+	text-decoration:none;
+	
+	
+}
+#menu_bar li{
+	float:left;
+	line-height:30px;
+	background:#000;
+	position:relative;
+	list-style:none;
+}
+
+#menu_bar ul li a{
+	text-decoration:none;
+	display:block;
+	width:200px;
+	height:30px;
+	color:white;
+	text-align:center;
+	border: 1px solid white;
+}
+
+#menu_bar ul ul{
+	visibility:hidden;
+	position:absolute;
+	top:30;
+}
+
+#menu_bar ul li:hover{ /*In this case the li will be modified and as long as
+						the mouse is over any "li" even if on different "li". */
+	background:blue;   /* Changes menu color bg 
+						when mouse is on menu bar */
+}
+
+#menu_bar ul li:hover ul {
+	visibility:visible;
+}
+
+#menu_bar ul li:hover ul li:hover a {
+	background:#CCC;
+	color:blue;
+	
+}
+
+
+
+
+

@@ -1,0 +1,60 @@
+<html>
+
+
+<head>
+<title> Menu </title>
+
+
+<style type = "text/css">
+
+body{
+
+	background-color: #d2b48c;
+	margin-left: 20%;
+	margin-right: 20%;
+	border: 5px dotted gray;
+	padding: 10px 10px 10px 10px;
+	font-family: sans-serif;
+}
+
+
+</style>
+
+
+
+
+</head>
+
+
+<body>
+<h1>Fessendens Restraunt</h1>
+<img src = "images/Fessenden.jpg">
+
+<h2> Hello, so what <br> would you like to eat? </h2>
+<hr>
+<p> Todays special is tuna. Well you can ask the chief if 
+there is anything in particular that you want.  </p>
+
+
+
+<p> A mixture of expresso, steamed mild and mild foam. </p>
+<h4> Chai Tea, $1.89   <a href = "Chai Tea.html"> Ingredients </a> </h4>
+
+
+<h4> The early Bird for Today </h4>
+<p>
+<ol>
+<li>Tiger Prawns with garlic sauce</li>
+<li>Burger House Special</li>
+<li>Cheese Cake</li>
+<li>Latte</li>
+</ol>
+</p>
+
+
+
+</body>
+
+
+
+</html>

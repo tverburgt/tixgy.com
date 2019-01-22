@@ -1,0 +1,126 @@
+
+
+body
+{
+	background-image:url('water.jpg'); 
+/* background-repeat:repeat;  */ 
+	background-attachment:fixed;
+
+}
+
+div
+ {
+	border-radius:10px;
+ }
+
+
+
+
+/* The The menu Bar */
+
+#menuBar{
+	padding:0;
+	margin:0;
+}
+
+#menuBar ul{
+	padding:0;
+	margin:0;
+}
+#menuBar li{
+	padding:0;
+	margin:0;
+	background:rgba(0,0,0,0.7);
+	list-style:none;
+	float:left;
+	position:relative;
+	
+}
+
+#menuBar a{
+	color:white;   /* nice blue color   RGB(0,0,0.5)  */
+	padding:0;
+	margin:0;
+	text-decoration:none;
+	display:block;
+	width:250px;
+	height:40px;
+	border: 1px solid white;
+	line-height:40px;
+	text-align:center;
+	
+}
+
+#menuBar ul ul{
+	position:absolute;
+	visibility:hidden;
+}
+
+#menuBar ul li:hover ul{
+	visibility:visible;
+}
+#menuBar ul li:hover ul li:hover a{
+	background:#C8C8C8 ;  /*    #66FF00  */
+	color:black;
+	font-size:18px;
+	font-style:bold;
+}
+
+#menuBar ul li:hover{
+	color:black;  /*Changes the text color of links from white to 
+					black when mouse hovers links*/
+	background: #C8C8C8;
+}
+.clearFloat{
+	clear:both;
+	margin:0;
+	padding:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************************************/
+p{
+	 color: white;
+	 font-style: italic;
+}
+
+
+ul.unorderedList{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+}
+
+li.list{
+float:left;
+}    
+/*   
+a{
+display:block;
+color:white;
+width:200px;
+height:40px;
+position: absolute;
+left:50%;
+top:50%;
+
+    margin-left: -100px;    margin-top: -20px; 
+text-decoration:none;
+font-style:bold;
+text-align:center;
+}
+*/
